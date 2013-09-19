@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
-<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <ui:composition xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html"
@@ -20,8 +19,8 @@
 			<p:fieldset styleClass="fieldset" legend="Authentication Form">
 				<p:messages id="messages" />
 				<h:panelGrid id="logPanelGrid"
-					style="margin: 0 auto; margin-top: 25px; text-align: right" cellspacing="8"
-					columns="3">
+					style="margin: 0 auto; margin-top: 25px; text-align: right"
+					cellspacing="8" columns="3">
 					<h:panelGroup>
 						<h:outputText value="User Name:" />
 						<h:outputText style="color:red" value="*   " />
@@ -35,8 +34,8 @@
 						<h:outputText value="Enter Password:" />
 						<h:outputText style="color:red" value="*   " />
 					</h:panelGroup>
-					<p:inputText id="pass" value="" required="true" label="Enter your password"
-						title="Enter your User Name!" />
+					<p:inputText id="pass" value="" required="true"
+						label="Enter your password" title="Enter your User Name!" />
 					<p:tooltip for="pass" styleClass="tooltip" showEvent="focus"
 						hideEvent="blur" />
 
